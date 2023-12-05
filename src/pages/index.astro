@@ -1,5 +1,7 @@
 ---
 import Layout from "../layout/Layout.astro";
+import { Navbar } from "../components/Navbar.jsx";
+
 
 import "../style/global.css";
 
@@ -7,5 +9,5 @@ import "../style/global.css";
 ---
 
 <Layout title="SPOTLESS">
-
+  <Navbar client:load />
 </Layout>
