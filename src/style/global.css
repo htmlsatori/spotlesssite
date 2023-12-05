@@ -7,7 +7,7 @@
 
 :root {
   --main-family: 'Poppins', sans-serif;
-  --color-bg: red
+  --color-bg: blue;
   ;
 
   /* Controls the blob blur gradient colors within the main tag's svg */
